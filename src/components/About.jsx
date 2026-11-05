@@ -115,7 +115,7 @@ export default function About() {
               </div>
               <div className="relative rounded-xl overflow-hidden aspect-video bg-[#07090D] border border-white/6">
                 <img
-                  src="/assets/lab.webp"
+                  src={`${import.meta.env.BASE_URL}assets/lab.webp`}
                   alt="Gokul R Hardware Prototyping Laboratory Workbench"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"

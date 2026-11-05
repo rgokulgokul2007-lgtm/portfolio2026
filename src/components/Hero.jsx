@@ -161,7 +161,7 @@ export default function Hero() {
                 {/* Portrait Photograph (Authentic Studio Photo of Gokul) */}
                 <div className="relative overflow-hidden rounded-xl aspect-[16/10] sm:aspect-[16/11] bg-[#07090D] border border-white/6">
                   <img
-                    src="/assets/hero.webp"
+                    src={`${import.meta.env.BASE_URL}assets/hero.webp`}
                     alt="Gokul R - Hardware & Software Engineer"
                     className="w-full h-full object-cover object-center filter contrast-[1.03] brightness-[0.98]"
                     loading="eager"
