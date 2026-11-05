@@ -231,10 +231,11 @@ export default function Hero() {
                 </div>
               </motion.div>
 
-              {/* Floating Technical Card 3: Focus */}
+              {/* Floating Technical Card 3: Focus (Positioned middle-left, clear of subject's face) */}
               <motion.div
                 animate={{
                   y: [0, 6, 0],
+                  x: [0, -3, 0],
                 }}
                 transition={{
                   duration: 5.5,
@@ -242,7 +243,7 @@ export default function Hero() {
                   ease: 'easeInOut',
                   delay: 1.5,
                 }}
-                className="hidden sm:block absolute top-1/2 -right-8 -translate-y-1/2 px-3 py-2 rounded-xl bg-[#111722]/95 border border-[#80E5FF]/25 shadow-lg backdrop-blur-md"
+                className="absolute top-1/2 -left-6 sm:-left-12 -translate-y-1/2 px-3.5 py-2 rounded-xl bg-[#111722]/95 border border-[#80E5FF]/30 shadow-xl backdrop-blur-md z-20"
               >
                 <div className="text-[9px] font-mono text-[#8C99AA] uppercase tracking-wider">
                   FOCUS
